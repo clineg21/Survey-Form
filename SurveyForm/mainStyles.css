@@ -1,0 +1,87 @@
+/*
+
+
+    file name: mainStyles.css
+    Author: Grace Cline
+
+
+    */
+
+    body {
+        background-color: aqua;
+    }
+
+    h1, #description {
+        text-align: center;
+    }
+
+    #description {
+        padding-top: 20px;
+    }
+
+    form {
+        background-color: white;
+        width: 70%;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .formInput {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+    }
+
+ label {
+        width: 35%;
+        text-align: right;
+        margin-right: 25px;
+        margin-left: 60px;
+        padding: 10px 15px;
+    }
+
+    .info > input {
+        height: 20px;
+        width: 215px;
+    }
+
+    select {
+        width: 100px;
+        height: 32px;
+    }
+
+   nav#infobuttons ul{
+       list-style-type: none;
+   }
+
+   nav#infobuttons li {
+       text-align: left;
+       
+   }    
+
+   nav#checkbox ul {
+       list-style-type: none;
+   }
+
+ label#checkboxLabel, label#radioLabel {
+     margin-right: -15px;
+ }
+
+#submit-button {
+    width: 10%;
+    font-size: 1.1em;
+    height: 40px;
+    background-color: azure;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+  
+
+
+
